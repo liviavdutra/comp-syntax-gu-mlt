@@ -1,0 +1,466 @@
+# sent_id = 1
+# text = Quem são eles?
+# text_en = Who are they?
+1	Quem	_	PRON	_	_	0	root	_	_
+2	são	_	AUX	_	_	1	cop	_	_
+3	eles	_	PRON	_	_	1	nsubj	_	_
+4	?	_	PUNCT	_	_	1	punct	_	_
+
+# sent_id = 2
+# text = Uma pequena cidade com dois minaretes desliza.
+# text_en = A small town with two minarets glides by.
+1	Uma	_	DET	_	_	3	det	_	_
+2	pequena	_	ADJ	_	_	3	amod	_	_
+3	cidade	_	NOUN	_	_	7	nsubj	_	_
+4	com	_	ADP	_	_	6	case	_	_
+5	dois	_	NUM	_	_	6	nummod	_	_
+6	minaretes	_	NOUN	_	_	3	nmod	_	_
+7	desliza	_	VERB	_	_	0	root	_	_
+8	.	_	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 3
+# text = Eu era apenas um menino com sapatos sujos.
+# text_en = I was just a boy with muddy shoes.
+1	Eu	_	PRON	_	_	5	nsubj	_	_
+2	era	_	AUX	_	_	5	cop	_	_
+3	apenas	_	ADV	_	_	5	advmod	_	_
+4	um	_	DET	_	_	5	det	_	_
+5	menino	_	NOUN	_	_	0	root	_	_
+6	com	_	ADP	_	_	7	case	_	_
+7	sapatos	_	NOUN	_	_	5	nmod	_	_
+8	sujos	_	ADJ	_	_	7	amod	_	_
+9	.	_	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 4
+# text = A polícia de trânsito de Shenzhen optou por penalidades não convencionais antes.
+# text_en = Shenzhen's traffic police have opted for unconventional penalties before..
+1	A	_	DET	_	_	2	det	_	_
+2	polícia	_	NOUN	_	_	7	nsubj	_	_
+3	de	_	ADP	_	_	4	case	_	_
+4	trânsito	_	NOUN	_	_	2	nmod	_	_
+5	de	_	ADP	_	_	6	case	_	_
+6	Shenzhen	_	PROPN	_	_	2	nmod	_	_
+7	optou	_	VERB	_	_	0	root	_	_
+8	por	_	ADP	_	_	9	case	_	_
+9	penalidades	_	NOUN	_	_	7	nmod	_	_
+10	não	_	ADV	_	_	11	advmod	_	_
+11	convencionais	_	ADJ	_	_	9	amod	_	_
+12	antes	_	ADV	_	_	7	advmod	_	_
+13	.	_	PUNCT	_	_	7	punct	_	_
+14	.	_	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 5
+# text = O estudo de vulcões é chamado de vulcanologia, às vezes grafado como vulcanologia.
+# text_en = The study of volcanoes is called volcanology, sometimes spelled vulcanology.
+# 10-11	às	_	_	_	_	_	_	_	_
+1	O	_	DET	_	_	2	det	_	_
+2	estudo	_	NOUN	_	_	6	nsubj:pass	_	_
+3	de	_	ADP	_	_	4	case	_	_
+4	vulcões	_	NOUN	_	_	2	nmod	_	_
+5	é	_	AUX	_	_	6	aux:pass	_	_
+6	chamado	_	VERB	_	_	0	root	_	_
+7	de	_	ADP	_	_	8	case	_	_
+8	vulcanologia	_	NOUN	_	_	6	nmod	_	_
+9	,	_	PUNCT	_	_	13	punct	_	_
+10	a	_	ADP	_	_	12	case	_	_
+11	as	_	DET	_	_	12	det	_	_
+12	vezes	_	NOUN	_	_	13	nmod	_	_
+13	grafado	_	VERB	_	_	6	acl	_	_
+14	como	_	CCONJ	_	_	15	MARK	_	_
+15	vulcanologia	_	NOUN	_	_	13	nmod	_	_
+16	.	_	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 6
+# text = Foi realizado ao largo da costa mexicana de abril a junho.
+# 3-4	ao	_	_	_	_	_	_	_	_
+# 6-7	da	_	_	_	_	_	_	_	_
+1	Foi	_	AUX	_	_	2	aux:pass	_	_
+2	realizado	_	VERB	_	_	0	root	_	_
+3	a	_	ADP	_	_	5	case	_	_
+4	o	_	DET	_	_	5	det	_	_
+5	largo	_	NOUN	_	_	2	nmod	_	_
+6	de	_	ADP	_	_	8	case	_	_
+7	a	_	DET	_	_	8	det	_	_
+8	costa	_	NOUN	_	_	5	nmod	_	_
+9	mexicana	_	ADJ	_	_	8	amod	_	_
+10	de	_	ADP	_	_	11	case	_	_
+11	abril	_	PROPN	_	_	2	nmod	_	_
+12	a	_	ADP	_	_	13	case	_	_
+13	junho	_	PROPN	_	_	11	nmod	_	_
+14	.	_	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 7
+# text = "Sua voz literalmente deu a volta ao mundo", disse Leive.
+# 8-9	ao	_	_	_	_	_	_	_	_
+1	"	_	PUNCT	_	_	5	punct	_	_
+2	Sua	_	DET	_	_	3	det:poss	_	_
+3	voz	_	NOUN	_	_	5	nsubj	_	_
+4	literalmente	_	ADV	_	_	5	advmod	_	_
+5	deu	_	VERB	_	_	13	ccomp	_	_
+6	a	_	DET	_	_	7	det	_	_
+7	volta	_	NOUN	_	_	5	obj	_	_
+8	a	_	ADP	_	_	10	case	_	_
+9	o	_	DET	_	_	10	det	_	_
+10	mundo	_	NOUN	_	_	7	nmod	_	_
+11	"	_	PUNCT	_	_	5	punct	_	_
+12	,	_	PUNCT	_	_	13	punct	_	_
+13	disse	_	VERB	_	_	0	root	_	_
+14	Leive	_	PROPN	_	_	13	nsubj	_	_
+15	.	_	PUNCT	_	_	13	punct	_	_
+
+# sent_id = 8
+# text = Uma testemunha disse à polícia que a vítima atacou o suspeito em abril.
+# 4-5	à	_	_	_	_	_	_	_	_
+1	Uma	_	DET	_	_	2	det	_	_
+2	testemunha	_	NOUN	_	_	3	nsubj	_	_
+3	disse	_	VERB	_	_	0	root	_	_
+4	a	_	ADP	_	_	6	case	_	_
+5	a	_	DET	_	_	6	det	_	_
+6	polícia	_	NOUN	_	_	3	iobj	_	_
+7	que	_	CCONJ	_	_	10	mark	_	_
+8	a	_	DET	_	_	9	det	_	_
+9	vítima	_	NOUN	_	_	10	nsubj	_	_
+10	atacou	_	VERB	_	_	3	ccomp	_	_
+11	o	_	DET	_	_	12	det	_	_
+12	suspeito	_	NOUN	_	_	10	obj	_	_
+13	em	_	ADP	_	_	14	case	_	_
+14	abril	_	PROPN	_	_	10	nmod	_	_
+15	.	_	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 9
+# text = Isso é mais óbvio quando o nome de uma celebridade é inicialmente bastante raro.
+1	Isso	_	PRON	_	_	2	nsubj	_	_
+2	é	_	VERB	_	_	0	root	_	_
+3	mais	_	ADV	_	_	4	advmod	_	_
+4	óbvio	_	ADJ	_	_	2	xcomp	_	_
+5	quando	_	CCONJ	_	_	11	mark	_	_
+6	o	_	DET	_	_	7	det	_	_
+7	nome	_	NOUN	_	_	11	nsubj	_	_
+8	de	_	ADP	_	_	10	case	_	_
+9	uma	_	DET	_	_	10	det	_	_
+10	celebridade	_	NOUN	_	_	7	nmod	_	_
+11	é	_	VERB	_	_	2	advcl	_	_
+12	inicialmente	_	ADV	_	_	14	advmod	_	_
+13	bastante	_	ADV	_	_	14	advmod	_	_
+14	raro	_	ADJ	_	_	11	xcomp	_	_
+15	.	_	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 10
+# text = Isso não impediu que os investidores corressem para investir em fundos.
+1	Isso	_	PRON	_	_	3	nsubj	_	_
+2	não	_	ADV	_	_	3	advmod	_	_
+3	impediu	_	VERB	_	_	0	root	_	_
+4	que	_	CCONJ	_	_	7	mark	_	_
+5	os	_	DET	_	_	6	det	_	_
+6	investidores	_	NOUN	_	_	7	nsubj	_	_
+7	corressem	_	VERB	_	_	3	ccomp	_	_
+8	para	_	ADP	_	_	9	mark	_	_
+9	investir	_	VERB	_	_	7	advcl	_	_
+10	em	_	ADP	_	_	11	case	_	_
+11	fundos	_	NOUN	_	_	9	nmod	_	_
+12	.	_	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 11
+# text = Essa discrepância entre dados econômicos e retórica política é familiar, ou deveria ser.
+1	Essa	_	DET	_	_	2	det	_	_
+2	discrepância	_	NOUN	_	_	9	nsubj	_	_
+3	entre	_	ADP	_	_	4	case	_	_
+4	dados	_	NOUN	_	_	2	nmod	_	_
+5	econômicos	_	ADJ	_	_	4	amod	_	_
+6	e	_	CCONJ	_	_	7	cc	_	_
+7	retórica	_	NOUN	_	_	4	conj	_	_
+8	política	_	ADJ	_	_	7	amod	_	_
+9	é	_	VERB	_	_	0	root	_	_
+10	familiar	_	ADJ	_	_	9	xcomp	_	_
+11	,	_	PUNCT	_	_	14	punct	_	_
+12	ou	_	CCONJ	_	_	14	cc	_	_
+13	deveria	_	AUX	_	_	14	aux	_	_
+14	ser	_	VERB	_	_	9	Xcomp	_	_
+15	.	_	PUNCT	_	_	9	punct	_	_
+
+# sent_id = 12
+# text = O estudo de viabilidade estima que os passageiros levariam cerca de quatro minutos para atravessar o rio Potomac na gôndola.
+# 19-20	na	_	_	_	_	_	_	_	_
+1	O	_	DET	_	_	2	det	_	_
+2	estudo	_	NOUN	_	_	5	nsubj	_	_
+3	de	_	ADP	_	_	4	case	_	_
+4	viabilidade	_	NOUN	_	_	2	nmod	_	_
+5	estima	_	VERB	_	_	0	root	_	_
+6	que	_	CCONJ	_	_	9	mark	_	_
+7	os	_	DET	_	_	8	det	_	_
+8	passageiros	_	NOUN	_	_	9	nsubj	_	_
+9	levariam	_	VERB	_	_	5	ccomp	_	_
+10	cerca	_	ADV	_	_	12	advmod	_	_
+11	de	_	ADP	_	_	10	case	_	_
+12	quatro	_	NUM	_	_	13	nummod	_	_
+13	minutos	_	NOUN	_	_	9	nmod	_	_
+14	para	_	ADP	_	_	15	mark	_	_
+15	atravessar	_	VERB	_	_	9	advcl	_	_
+16	o	_	DET	_	_	17	det	_	_
+17	rio	_	NOUN	_	_	15	obj	_	_
+18	Potomac	_	PROPN	_	_	17	appos	_	_
+19	em	_	ADP	_	_	21	case	_	_
+20	a	_	DET	_	_	21	det	_	_
+21	gôndola	_	NOUN	_	_	15	nmod	_	_
+22	.	_	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 13
+# text = Ele colecionava cartas e as trocava com os outros meninos.
+1	Ele	_	PRON	_	_	2	nsubj	_	_
+2	colecionava	_	VERB	_	_	0	root	_	_
+3	cartas	_	NOUN	_	_	2	obj	_	_
+4	e	_	CCONJ	_	_	6	cc	_	_
+5	as	_	PRON	_	_	6	obj	_	_
+6	trocava	_	VERB	_	_	2	conj	_	_
+7	com	_	ADP	_	_	10	case	_	_
+8	os	_	DET	_	_	10	det	_	_
+9	outros	_	DET	_	_	10	det	_	_
+10	meninos	_	NOUN	_	_	6	nmod	_	_
+11	.	_	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 14
+# text = Este crime acarreta uma pena de cinco anos de prisão.
+1	Este	_	DET	_	_	2	det	_	_
+2	crime	_	NOUN	_	_	3	nsubj	_	_
+3	acarreta	_	VERB	_	_	0	root	_	_
+4	uma	_	DET	_	_	5	det	_	_
+5	pena	_	NOUN	_	_	3	obj	_	_
+6	de	_	ADP	_	_	8	case	_	_
+7	cinco	_	NUM	_	_	8	nummod	_	_
+8	anos	_	NOUN	_	_	5	nmod	_	_
+9	de	_	ADP	_	_	10	case	_	_
+10	prisão	_	NOUN	_	_	8	nmod	_	_
+11	.	_	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 15
+# text = A notícia foi levada a todas as vilas da província.
+# 9-10	da	_	_	_	_	_	_	_	_
+1	A	_	DET	_	_	2	det	_	_
+2	notícia	_	NOUN	_	_	4	nsubj:pass	_	_
+3	foi	_	AUX	_	_	4	aux:pass	_	_
+4	levada	_	VERB	_	_	0	root	_	_
+5	a	_	ADP	_	_	8	case	_	_
+6	todas	_	DET	_	_	8	det	_	_
+7	as	_	DET	_	_	8	det	_	_
+8	vilas	_	NOUN	_	_	4	nmod	_	_
+9	de	_	ADP	_	_	11	case	_	_
+10	a	_	DET	_	_	11	det	_	_
+11	província	_	NOUN	_	_	8	nmod	_	_
+12	.	_	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 16
+# text = Eu carrego esses pensamentos na parte de trás da minha cabeça.
+# 5-6	na	_	_	_	_	_	_	_	_
+# 10-11	da	_	_	_	_	_	_	_	_
+1	Eu	_	PRON	_	_	2	nsubj	_	_
+2	carrego	_	VERB	_	_	0	root	_	_
+3	esses	_	DET	_	_	4	det	_	_
+4	pensamentos	_	NOUN	_	_	2	obj	_	_
+5	em	_	ADP	_	_	7	case	_	_
+6	a	_	DET	_	_	7	det	_	_
+7	parte	_	NOUN	_	_	2	nmod	_	_
+8	de	_	ADP	_	_	9	mark	_	_
+9	trás	_	ADV	_	_	7	nmod	_	_
+10	de	_	ADP	_	_	13	case	_	_
+11	a	_	DET	_	_	13	det	_	_
+12	minha	_	DET	_	_	13	det:poss	_	_
+13	cabeça	_	NOUN	_	_	9	nmod	_	_
+14	.	_	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 17
+# text = Adão teria sido levado para a vida eterna.
+1	Adão	_	PROPN	_	_	4	nsubj:pass	_	_
+2	teria	_	AUX	_	_	4	aux	_	_
+3	sido	_	AUX	_	_	4	aux:pass	_	_
+4	levado	_	VERB	_	_	0	root	_	_
+5	para	_	ADP	_	_	7	case	_	_
+6	a	_	DET	_	_	7	det	_	_
+7	vida	_	NOUN	_	_	4	nmod	_	_
+8	eterna	_	ADJ	_	_	7	amod	_	_
+9	.	_	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 18
+# text = As caixas haviam apodrecido e tiveram que ser substituídas.
+1	As	_	DET	_	_	2	det	_	_
+2	caixas	_	NOUN	_	_	4	nsubj	_	_
+3	haviam	_	AUX	_	_	4	aux	_	_
+4	apodrecido	_	VERB	_	_	0	root	_	_
+5	e	_	CCONJ	_	_	9	cc	_	_
+6	tiveram	_	AUX	_	_	9	aux	_	_
+7	que	_	CCONJ	_	_	9	mark	_	_
+8	ser	_	AUX	_	_	9	aux:pass	_	_
+9	substituídas	_	VERB	_	_	4	conj	_	_
+10	.	_	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 19
+# text = Ela ficou furiosa que essa garota atrevida ousasse fazê-la de boba na frente da turma.
+# 14-15	na	_	_	_	_	_	_	_	_
+# 17-18	da	_	_	_	_	_	_	_	_
+1	Ela	_	PRON	_	_	2	nsubj	_	_
+2	ficou	_	VERB	_	_	0	root	_	_
+3	furiosa	_	ADJ	_	_	2	xcomp	_	_
+4	que	_	CCONJ	_	_	8	mark	_	_
+5	essa	_	DET	_	_	6	det	_	_
+6	garota	_	NOUN	_	_	8	nsubj	_	_
+7	atrevida	_	ADJ	_	_	6	amod	_	_
+8	ousasse	_	VERB	_	_	2	ccomp	_	_
+9	fazê	_	VERB	_	_	8	xcomp	_	_
+10	-	_	PUNCT	_	_	9	punct	_	_
+11	la	_	PRON	_	_	9	obj	_	_
+12	de	_	ADP	_	_	13	case	_	_
+13	boba	_	NOUN	_	_	9	nmod	_	_
+14	em	_	ADP	_	_	16	case	_	_
+15	a	_	DET	_	_	16	det	_	_
+16	frente	_	NOUN	_	_	9	nmod	_	_
+17	de	_	ADP	_	_	19	case	_	_
+18	a	_	DET	_	_	19	det	_	_
+19	turma	_	NOUN	_	_	16	nmod	_	_
+20	.	_	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 20
+# text = O deslizamento de terra que ele teve no colégio eleitoral obscureceu a estreiteza de uma vitória baseada em apenas 43% dos votos populares.
+# 8-9	no	_	_	_	_	_	_	_	_
+# 23-24	dos	_	_	_	_	_	_	_	_
+1	O	_	DET	DET	_	2	det	_	_
+2	deslizamento	_	NOUN	NOUN	_	12	nsubj	_	_
+3	de	_	ADP	ADP	_	4	case	_	_
+4	terra	_	NOUN	NOUN	_	2	nmod	_	_
+5	que	_	PRON	PRON	_	7	obj	_	_
+6	ele	_	PRON	PRON	_	7	nsubj	_	_
+7	teve	_	VERB	VERB	_	2	acl:relcl	_	_
+8	em	_	ADP	ADP	_	10	case	_	_
+9	o	_	DET	DET	_	10	det	_	_
+10	colégio	_	NOUN	NOUN	_	7	nmod	_	_
+11	eleitoral	_	ADJ	ADJ	_	10	amod	_	_
+12	obscureceu	_	VERB	_	_	0	root	_	_
+13	a	_	DET	DET	_	14	det	_	_
+14	estreiteza	_	NOUN	NOUN	_	12	obj	_	_
+15	de	_	ADP	ADP	_	17	case	_	_
+16	uma	_	DET	DET	_	17	det	_	_
+17	vitória	_	NOUN	NOUN	_	14	nmod	_	_
+18	baseada	_	VERB	VERB	_	17	acl	_	_
+19	em	_	ADP	ADP	_	22	case	_	_
+20	apenas	_	ADV	ADV	_	21	advmod	_	_
+21	43	_	NUM	NUM	_	22	nummod	_	_
+22	%	_	SYM	SYM	_	18	nmod	_	_
+23	de	_	ADP	_	_	25	case	_	_
+24	os	_	DET	_	_	25	det	_	_
+25	votos	_	NOUN	_	_	22	nmod	_	_
+26	populares	_	ADJ	_	_	25	amod	_	_
+27	.	_	PUNCT	_	_	12	punct	_	_
+
+# sent_id = 21
+# text = As tropas dos Estados Unidos agora carregam atropina e autoinjetores em seus kits de primeiros socorros para usar em caso de envenenamento por agente nervoso de organofosfato.
+# 3-4	dos	_	_	_	_	_	_	_	_
+1	As	_	DET	_	_	2	det	_	_
+2	tropas	_	NOUN	_	_	8	nsubj	_	_
+3	de	_	ADP	_	_	5	case	_	_
+4	os	_	DET	_	_	5	det	_	_
+5	Estados	_	PROPN	_	_	2	nmod	_	_
+6	Unidos	_	PROPN	_	_	5	amod	_	_
+7	agora	_	ADV	_	_	8	advmod	_	_
+8	carregam	_	VERB	_	_	0	root	_	_
+9	atropina	_	NOUN	_	_	8	obj	_	_
+10	e	_	CCONJ	_	_	11	cc	_	_
+11	autoinjetores	_	NOUN	_	_	9	conj	_	_
+12	em	_	ADP	_	_	14	case	_	_
+13	seus	_	DET	_	_	14	det:poss	_	_
+14	kits	_	NOUN	_	_	8	nmod	_	_
+15	de	_	ADP	_	_	17	case	_	_
+16	primeiros	_	ADJ	_	_	17	amod	_	_
+17	socorros	_	NOUN	_	_	14	nmod	_	_
+18	para	_	ADP	_	_	19	mark	_	_
+19	usar	_	VERB	_	_	8	advcl	_	_
+20	em	_	ADP	_	_	21	case	_	_
+21	caso	_	NOUN	_	_	19	nmod	_	_
+22	de	_	ADP	_	_	23	case	_	_
+23	envenenamento	_	NOUN	_	_	21	nmod	_	_
+24	por	_	ADP	_	_	25	case	_	_
+25	agente	_	NOUN	_	_	23	nmod	_	_
+26	nervoso	_	ADJ	_	_	25	amod	_	_
+27	de	_	ADP	_	_	28	case	_	_
+28	organofosfato	_	NOUN	_	_	25	nmod	_	_
+29	.	_	PUNCT	_	_	8	punct	_	_
+
+# sent_id = 22
+# text = Ele pode realizar por meio de habilidade a longo prazo o que não pode fazer por meio da força e da violência a curto prazo.
+# 18-19	da	_	_	_	_	_	_	_	_
+# 22-23	da	_	_	_	_	_	_	_	_
+1	Ele	_	PRON	_	_	3	nsubj	_	_
+2	pode	_	AUX	_	_	3	aux	_	_
+3	realizar	_	VERB	_	_	0	root	_	_
+4	por	_	ADP	_	_	5	case	_	_
+5	meio	_	NOUN	_	_	3	nmod	_	_
+6	de	_	ADP	_	_	7	case	_	_
+7	habilidade	_	NOUN	_	_	5	nmod	_	_
+8	a	_	ADP	_	_	10	case	_	_
+9	longo	_	ADJ	_	_	10	amod	_	_
+10	prazo	_	NOUN	_	_	3	nmod	_	_
+11	o	_	PRON	_	_	3	obj	_	_
+12	que	_	PRON	_	_	15	obj	_	_
+13	não	_	ADV	_	_	15	advmod	_	_
+14	pode	_	AUX	_	_	15	aux	_	_
+15	fazer	_	VERB	_	_	11	acl:relcl	_	_
+16	por	_	ADP	_	_	17	case	_	_
+17	meio	_	NOUN	_	_	15	nmod	_	_
+18	de	_	ADP	_	_	20	case	_	_
+19	a	_	DET	_	_	20	det	_	_
+20	força	_	NOUN	_	_	17	nmod	_	_
+21	e	_	CCONJ	_	_	24	cc	_	_
+22	de	_	ADP	_	_	24	case	_	_
+23	a	_	DET	_	_	24	det	_	_
+24	violência	_	NOUN	_	_	20	conj	_	_
+25	a	_	ADP	_	_	27	case	_	_
+26	curto	_	ADJ	_	_	27	amod	_	_
+27	prazo	_	NOUN	_	_	20	nmod	_	_
+28	.	_	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 23
+# text = Diz-se que somente uma sociedade hierárquica com uma classe ociosa no topo pode produzir obras de arte.
+# 1-2	Diz-se	_	_	_	_	_	_	_	_
+# 12-13	no	_	_	_	_	_	_	_	_
+1	Diz	_	VERB	_	_	0	root	_	_
+2	se	_	PART	_	_	1	expl:pv	_	_
+3	que	_	CCONJ	_	_	16	mark	_	_
+4	somente	_	ADV	_	_	6	advmod	_	_
+5	uma	_	DET	_	_	6	det	_	_
+6	sociedade	_	NOUN	_	_	16	nsubj	_	_
+7	hierárquica	_	ADJ	_	_	6	amod	_	_
+8	com	_	ADP	_	_	10	case	_	_
+9	uma	_	DET	_	_	10	det	_	_
+10	classe	_	NOUN	_	_	6	nmod	_	_
+11	ociosa	_	ADJ	_	_	10	amod	_	_
+12	em	_	ADP	_	_	14	case	_	_
+13	o	_	DET	_	_	14	det	_	_
+14	topo	_	NOUN	_	_	10	nmod	_	_
+15	pode	_	AUX	_	_	16	aux	_	_
+16	produzir	_	VERB	_	_	1	ccomp	_	_
+17	obras	_	NOUN	_	_	16	obj	_	_
+18	de	_	ADP	_	_	19	case	_	_
+19	arte	_	NOUN	_	_	17	nmod	_	_
+20	.	_	PUNCT	_	_	1	punct	_	_
+
+# sent_id = 24
+# text = Sua ingênua explicação de que ele não teria queimado a igreja se não tivesse pensado que o bispo estava dentro dela.
+1	Sua	_	DET	_	_	3	det:poss	_	_
+2	ingênua	_	ADJ	_	_	3	amod	_	_
+3	explicação	_	NOUN	_	_	0	root	_	_
+4	de	_	ADP	_	_	9	mark	_	_
+5	que	_	CCONJ	_	_	9	mark	_	_
+6	ele	_	PRON	_	_	9	nsubj	_	_
+7	não	_	ADV	_	_	9	advmod	_	_
+8	teria	_	AUX	_	_	9	aux	_	_
+9	queimado	_	VERB	_	_	3	nmod	_	_
+10	a	_	DET	_	_	11	det	_	_
+11	igreja	_	NOUN	_	_	9	obj	_	_
+12	se	_	CCONJ	_	_	15	mark	_	_
+13	não	_	ADV	_	_	15	advmod	_	_
+14	tivesse	_	AUX	_	_	15	aux	_	_
+15	pensado	_	VERB	_	_	9	advcl	_	_
+16	que	_	CCONJ	_	_	19	mark	_	_
+17	o	_	DET	_	_	18	det	_	_
+18	bispo	_	NOUN	_	_	19	nsubj	_	_
+19	estava	_	VERB	_	_	15	ccomp	_	_
+20	dentro	_	ADV	_	_	19	advmod	_	_
+21	dela	_	X	_	_	20	nmod	_	_
+22	.	_	PUNCT	_	_	3	punct	_	_
